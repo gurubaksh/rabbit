@@ -1,0 +1,146 @@
+event propagation javascript
+
+event stop propagation
+event bubling
+ref and props
+redux
+ste
+
+return in stateless componet
+
+
+getdeafultprops
+getinitial state
+initial
+clouser
+
+
+duplicate values remove
+
+1-high order function
+
+1- filter - for parse and match and return true false
+2- map - for parse return wahtever want to return
+3- reject no longer availble
+4- reduce - for contact and merge
+5- curring - function return function can done by lodash
+6-flatmap/monald/bind/chain
+7- cloures -  outside value can be accessable inside the function
+8- forEach
+9- functors - object that have map method
+10- flatmap - wait for result map
+11- generator - handle promise itself
+12- yield, next 
+13- destructuring
+14 - async and await
+15- promise
+16- ejbird
+17 - egine x
+18- callback
+19- SPREAD OPERATOR -  ...ARGS
+20= apply
+21- promise/a+
+22- promise.all - when all promise is resolved
+23- promise.raise - when any one of promise is resolved
+24- assign - merge and override also copy the object  = not copy
+25- for of - for(let a of langues) {} lag.keys(), lag.values(), lag.enteries()
+26- array form - function sum() {
+	arguments = Array.from(arguments)
+}
+sum(1,2,3);
+console.log(Array.from("how its work"))
+27 - find ---like filter,
+28- findindex for finding index
+29- map and set ------ delete, clear
+
+
+
+
+
+
+
+
+
+
+
+for...of loop - Topics of JavaScript/ES6
+
+
+
+algorithem for comparing react js
+
+
+
+call apply -  
+call() takes any function arguments separately.
+apply() takes any function arguments as an array.
+
+async defer
+bind delegation
+
+
+The async Attribute ---
+<script async src="script.js">
+The async attribute is used to indicate to the browser that the script file can be executed asynchronously. The HTML parser does not need to pause at the point it reaches the script tag to fetch and execute, the execution can happen whenever the script becomes ready after being fetched in parallel with the document parsing.
+
+
+The defer Attribute------
+<script defer src="script.js">
+The defer attribute tells the browser to only execute the script file once the HTML document has been fully parsed.
+
+
+Javascript call() & apply() vs bind()?
+
+var obj = {
+  x: 81,
+  getX: function() {
+    return this.x;
+  }
+};
+
+
+
+alert(obj.getX.bind(obj)());
+alert(obj.getX.call(obj));
+alert(obj.getX.apply(obj));
+
+Use .bind() when you want that function to later be called with a certain context, useful in events. Use .call() or .apply() when you want to invoke the function immediately, and modify the context.
+
+
+
+bind - is used for binding the object of object because we can't use this
+
+Object.setPrototypeOf(dog, animal)  - for bind the two objects
+
+
+__proto__ - prototype when new key word is used
+object.create - create new object with inherintance
+VALU.SORT - FOR SORTING ALPHA FOR NUMER PASS FUNCTION A-B
+option chainging -  if key is undefined
+
+
+
+some - loop the value if return true then it stop
+every - return all who are true
+
+class - no private
+composition and in heritance- like assign in loadash
+
+factory function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

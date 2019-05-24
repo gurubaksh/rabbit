@@ -1,0 +1,39 @@
+redux 
+
+createStore -  first paramater would be reducer and second paramerter would be initial state
+
+reducer - take your action and does something your action(change state)
+
+store.dipatch : sends the action to store and store send to reducer
+store.dispatch()
+
+store.dispatch : execute when the store is updated
+
+combineReduler: for multiple reducer(combine and pass to the store)
+
+applymiddleware:  for apply the middleare
+
+react-redux:  makes bredege between react and redux
+provider :  provider provides the store to react app
+connect : pass state values to the component
+
+action - connect with coonect's mothod
+
+async redux -  redux-thunk
+handle promise - redux-promise-middleware
+
+
+
+componentwillmound =  execute before rendering
+componentdidmount =  execute after initial rendering
+componentwillreceiveprops = when component receives new props  (nextprops)
+shouldcompoentupdate = before rendering after receving new props or state can return false for preventing the rendering  (nextprops, nextstate)
+compoentwillupdate  - before rendering after receing new props or state
+componentdidupdate =  after redering after receving new props or state
+conponentwillunmount = immdeteliy before removing compoent from dom
+
+
+this.props.childrern = <Header> asdfasdfafsd</Header> value link this
+
+indexroute -  for default route
+browserHistory.push('/home') -  for history

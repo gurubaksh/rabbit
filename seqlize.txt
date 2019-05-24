@@ -1,0 +1,6 @@
+sync -   for create table by model
+
+validation in model - by validate command
+
+hooks - when internal seqlize occured  like beforevalidate,
+aftervalidate, beforecreate, aftercreate, defines in model like hashing the password

@@ -1,0 +1,70 @@
+1-Const/Let  
+
+2- Template Strings  --   back-tick
+ var a = 5;
+var b = 10;
+console.log(`Fifteen is ${a + b} and
+not ${2 * a + b}.`);
+
+
+3- foreach -- forEach() executes the callback function once for each array element; unlike map() or reduce() it always returns the value undefined and is not chainable. The typical use case is to execute side effects at the end of a chain
+
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+
+class mammal {
+
+	constructor(sound) {
+		this.sound = sound;
+	}
+	
+	talk() {
+		return this.sound;
+	}
+
+}
+
+class dog extends mammal {
+	constructor() {
+		super()
+	}
+}
+
+var ff = new dog();
+gg = ff.talk('asdfasfdsfd');
+console.log(gg)
+
+
+https://www.youtube.com/watch?v=s6SH72uAn3Q&t=18s
+
+
+let cleanRoom =  function() {
+	return new Promise(function(resolve, reject)) {
+		resolve('clean the Room');
+	}
+}
+
+
+
+npm install react react-dom
+npm install webback webpack-dev-server babel in save--dev
+
+web.config - require('path') default node lib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
